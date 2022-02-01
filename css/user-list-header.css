@@ -1,0 +1,10 @@
+
+.user-listHeader{
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid red; */
+  background: var(--grey-4);
+}

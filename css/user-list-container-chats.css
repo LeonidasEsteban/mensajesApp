@@ -1,0 +1,99 @@
+
+.container-chats{
+  /* border: 1px solid orange; */
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1rem;
+  block-size: calc(100vh - 5rem);
+  overflow: auto;
+  /* border: 1px solid red; */
+}
+
+.container-chatsSearch{
+  background: var(--grey-3);
+  padding-block: 1rem;
+  /* border: 1px solid yellow; */
+  position: sticky;
+  top: 0;
+}
+
+.container-chatsSearch input{
+  border: none;
+  border-radius: 3.125rem;
+  padding-block: .75rem;
+  padding-inline-start: 5rem;
+  color: var(--grey);
+  width: 100%;
+}
+
+.container-chatsSearch img{
+  position: absolute;
+  left: 2.5rem;
+  top: calc(50% - .75rem);
+  block-size: 1.5rem;
+}
+
+/*-----------CHATS------------*/
+
+.container-chatsChat{
+  /* border: 1px solid pink; */
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--grey-2);
+
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.user-chat{
+  border-radius: 50%;
+  inline-size: 3rem;
+  block-size: 3rem;
+}
+
+.card-description{
+  max-inline-size: 20.7rem;
+  /* border: 1px solid blue; */
+}
+
+.title-date{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-date .title{
+font: var(--body-16regular);
+}
+
+.title-date .day{
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+.check-message{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+
+
+.check-message .ellipsis{
+ overflow: hidden;
+}
+
+
+.check-message div span{
+  font: var(--caption-12regular);
+  color: var(--grey);
+
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,9 @@
+@import 'user-list-header.css';
+@import 'user-list-container-chats.css';
+
+
+.user-list{
+  /* border: 10px solid green; */
+  grid-area: user-list;
+  background: var(--grey-3);
+}

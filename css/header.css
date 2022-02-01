@@ -1,0 +1,19 @@
+.header{
+  max-block-size: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  background: var(--grey-4);
+
+  border-left: 1px solid var(--grey);
+}
+
+.header-primary, .header-secondary{
+  display: flex;
+}
+
+.header-secondary button{
+  background: none;
+  border: none;
+}

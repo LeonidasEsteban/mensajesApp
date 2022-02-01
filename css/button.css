@@ -1,0 +1,11 @@
+.button{
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  block-size: auto;
+  inline-size: auto;
+}
+
+.button:active{
+  transform: scale(.95);
+}

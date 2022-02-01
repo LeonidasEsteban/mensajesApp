@@ -1,0 +1,9 @@
+.layout{
+  --userListSize: 27.5rem;
+  /* border: 10px solid red; */
+  display: grid;
+  grid-template-columns: var(--userListSize) 1fr;
+  grid-template-areas: "user-list chat" "user-list footer";
+  block-size: 100vh;
+  box-sizing: border-box;
+}

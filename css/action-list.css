@@ -1,0 +1,45 @@
+.action-list{
+  block-size: 80px;
+  background: var(--grey-4);
+  padding-inline: 1rem;
+
+  display: grid;
+  grid-template-areas: "emoji paperclip input mic";
+  grid-template-columns: 1.5rem 1.5rem 1fr 1.5rem;
+  grid-template-rows: 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.action-list .emoji{
+  grid-area: emoji;
+}
+
+.action-list .paperclipclip{
+  grid-area: paperclip;
+}
+
+.action-list .input{
+  grid-area: input;
+  /* max-inline-size: 80rem; */
+
+}
+
+.action-list .mic{
+  grid-area: mic;
+}
+
+.action-list form{
+  display: flex;
+  flex: 1;
+}
+
+.action-list input{
+  font: var(--body-16regular);
+  border: none;
+  border-radius: 3.125rem;
+  padding-inline: 1.5rem;
+  padding-block: .75rem;
+  color: var(--grey);
+  flex: 1;
+}
