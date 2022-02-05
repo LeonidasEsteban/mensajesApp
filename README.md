@@ -5,7 +5,11 @@
 #  Aplicación de mensajería
 Esta aplicación es un clon de whatsapp web donde se puso en practica flexbox layout
 
+
 ![Aplicación de mensajería](./whats.gif)
+
+https://user-images.githubusercontent.com/1150114/152648827-93c412e2-4510-4f62-9a46-a3db39e2ac1c.mp4
+
 
 ## Requerimentos
 Estilo libre. Lleva el diseño al código utilizando tu framework favorito, o con HTML y CSS, no hay ninguna limitación.
